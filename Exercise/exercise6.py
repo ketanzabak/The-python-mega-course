@@ -1,7 +1,7 @@
 import glob
 import datetime
 
-#main function 
+#main function
 def main():
     files = glob.glob(pathname="Sample-Files/*.txt")
     with open(datetime.datetime.now().strftime("%Y-%m-%d-%H-%M-%s-%f")+".txt" , 'w') as write_file :
